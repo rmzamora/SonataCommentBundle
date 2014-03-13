@@ -15,6 +15,7 @@ have a similar branch). Follow also their configuration step ; you will find
 everything you need in their installation chapter.
 
 .. note::
+
     If a dependency is already installed somewhere in your project or in
     another dependency, you won't need to install it again.
 
@@ -47,6 +48,7 @@ files:
     }
 
 .. note::
+
     If you already have installed a Sonata dependency, you may ignore the step
     on the modification of the ``autoload.php`` file.
 
@@ -95,7 +97,7 @@ Then add these bundles in the config mapping definition (or enable `auto_mapping
 
 Extending the Bundle
 --------------------
-At this point, the bundle is functionnal, but not quite ready yet. You need to
+At this point, the bundle is functional, but not quite ready yet. You need to
 generate the correct entities for the media::
 
     php app/console sonata:easy-extends:generate SonataCommentBundle
