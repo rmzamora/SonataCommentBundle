@@ -63,11 +63,4 @@ class CommentThreadAsyncBlockService extends BaseBlockService
         ));
     }
 
-    /**
-     * {@inheritdoc}
-     */
-    public function validateBlock(ErrorElement $errorElement, BlockInterface $block)
-    {
-
-    }
 }
