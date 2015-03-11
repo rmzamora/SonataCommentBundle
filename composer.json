@@ -1,49 +1,49 @@
 {
-    "name": "rmzamora/comment-bundle",
-    "type": "symfony-bundle",
-    "description": "Symfony SonataCommentBundle",
-    "keywords": ["comment", "sonata", "rmzamora fork"],
-    "homepage": "http://sonata-project.org/bundles/comment",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Mell M. Zamora",
-            "email": "me@mellzamora.com",
-            "homepage": "http://mellzamora.com"
-        },
-        {
-            "name": "Thomas Rabaix",
-            "email": "thomas.rabaix@sonata-project.org",
-            "homepage": "http://sonata-project.org"
-        },
-        {
-            "name": "Sonata Community",
-            "homepage": "https://github.com/sonata-project/SonataCommentBundle/contributors"
-        }
-    ],
-    "require": {
-        "symfony/http-foundation": "~2.4",
-        "symfony/form": "~2.4",
-        "symfony/security": "~2.4",
-        "symfony/console": "~2.4",
-        "friendsofsymfony/comment-bundle": "~2.0@dev",
-        "sonata-project/core-bundle": "~2.2",
-        "sonata-project/doctrine-extensions": "~1.0",
-        "sonata-project/easy-extends-bundle": "~2.1"
+  "name": "rmzamora/comment-bundle",
+  "type": "symfony-bundle",
+  "description": "Symfony SonataCommentBundle",
+  "keywords": ["comment", "sonata", "rmzamora fork"],
+  "homepage": "http://sonata-project.org/bundles/comment",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mell M. Zamora",
+      "email": "me@mellzamora.com",
+      "homepage": "http://mellzamora.com"
     },
-    "require-dev": {
-        "rmzamora/classification-bundle": "~2.3",
-        "rmzamora/media-bundle": "~2.3"
+    {
+      "name": "Thomas Rabaix",
+      "email": "thomas.rabaix@sonata-project.org",
+      "homepage": "http://sonata-project.org"
     },
-    "suggest": {
-        "rmzamora/doctrine-orm-admin-bundle": "~2.3"
-    },
-    "autoload": {
-        "psr-4": { "Sonata\\CommentBundle\\": "" }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-2.3": "2.3.x-dev"
-        }
+    {
+      "name": "Sonata Community",
+      "homepage": "https://github.com/sonata-project/SonataCommentBundle/contributors"
     }
+  ],
+  "require": {
+    "symfony/http-foundation": "~2.4",
+    "symfony/form": "~2.4",
+    "symfony/security": "~2.4",
+    "symfony/console": "~2.4",
+    "friendsofsymfony/comment-bundle": "~2.0@dev",
+    "sonata-project/core-bundle": "~2.2",
+    "sonata-project/doctrine-extensions": "~1.0",
+    "sonata-project/easy-extends-bundle": "~2.1"
+  },
+  "require-dev": {
+    "rmzamora/classification-bundle": "2.4.*",
+    "rmzamora/media-bundle": "2.4.*"
+  },
+  "suggest": {
+    "rmzamora/doctrine-orm-admin-bundle": "2.4.*"
+  },
+  "autoload": {
+    "psr-4": { "Sonata\\CommentBundle\\": "" }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-2.4": "2.4.x-dev"
+    }
+  }
 }
