@@ -32,18 +32,18 @@
         "sonata-project/easy-extends-bundle": "~2.1"
     },
     "require-dev": {
-        "rmzamora/classification-bundle": "~2.3",
-        "rmzamora/media-bundle": "~2.3"
+        "rmzamora/classification-bundle": "2.5.*",
+        "rmzamora/media-bundle": "2.5.*"
     },
     "suggest": {
-        "rmzamora/doctrine-orm-admin-bundle": "~2.3"
+        "rmzamora/doctrine-orm-admin-bundle": "2.5.*"
     },
     "autoload": {
         "psr-4": { "Sonata\\CommentBundle\\": "" }
     },
     "extra": {
         "branch-alias": {
-            "dev-2.4": "2.4.x-dev"
+            "dev-master": "2.5.x-dev"
         }
     }
 }
