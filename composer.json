@@ -33,11 +33,15 @@
   },
   "require-dev": {
     "rmzamora/classification-bundle": "2.4.*",
-    "rmzamora/media-bundle": "2.4.*"
+    "rmzamora/media-bundle": "2.4.*",
+    "symfony/phpunit-bridge": "~2.7|~3.0",
+    "fabpot/php-cs-fixer": "~0.1|~1.0"    
   },
   "suggest": {
     "rmzamora/doctrine-orm-admin-bundle": "2.4.*"
   },
+  "minimum-stability": "dev",
+  "prefer-stable": true,  
   "autoload": {
     "psr-4": { "Sonata\\CommentBundle\\": "" }
   },
