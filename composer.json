@@ -32,13 +32,13 @@
     "sonata-project/easy-extends-bundle": "~2.1"
   },
   "require-dev": {
-    "rmzamora/classification-bundle": "2.4.*",
-    "rmzamora/media-bundle": "2.4.*",
+    "rmzamora/classification-bundle": "2.4.2.*",
+    "rmzamora/media-bundle": "2.4.2.*",
     "symfony/phpunit-bridge": "~2.7|~3.0",
     "fabpot/php-cs-fixer": "~0.1|~1.0"    
   },
   "suggest": {
-    "rmzamora/doctrine-orm-admin-bundle": "2.4.*"
+    "rmzamora/doctrine-orm-admin-bundle": "2.4.2.*"
   },
   "minimum-stability": "dev",
   "prefer-stable": true,  
@@ -47,7 +47,7 @@
   },
   "extra": {
     "branch-alias": {
-      "dev-2.4": "2.4.x-dev"
+      "dev-2.4.2": "2.4.2.x-dev"
     }
   }
 }
