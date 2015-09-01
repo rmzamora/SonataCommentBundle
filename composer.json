@@ -27,18 +27,18 @@
     "symfony/security": "~2.4",
     "symfony/console": "~2.4",
     "rmzamora/fos-comment-bundle": "~2.0@dev",
-    "sonata-project/core-bundle": "~2.2",
+    "rmzamora/core-bundle": "2.5.0.*",
     "sonata-project/doctrine-extensions": "~1.0",
     "sonata-project/easy-extends-bundle": "~2.1"
   },
   "require-dev": {
-    "rmzamora/classification-bundle": "2.4.2.*",
-    "rmzamora/media-bundle": "2.4.2.*",
+    "rmzamora/classification-bundle": "2.5.0.*",
+    "rmzamora/media-bundle": "2.5.0.*",
     "symfony/phpunit-bridge": "~2.7|~3.0",
     "fabpot/php-cs-fixer": "~0.1|~1.0"    
   },
   "suggest": {
-    "rmzamora/doctrine-orm-admin-bundle": "2.4.2.*"
+    "rmzamora/doctrine-orm-admin-bundle": "2.5.0.*"
   },
   "minimum-stability": "dev",
   "prefer-stable": true,  
@@ -47,7 +47,7 @@
   },
   "extra": {
     "branch-alias": {
-      "dev-2.4.2": "2.4.2.x-dev"
+      "dev-2.5.0": "2.5.0.x-dev"
     }
   }
 }
