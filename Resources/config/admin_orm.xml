@@ -10,7 +10,7 @@
 
     <services>
         <service id="sonata.comment.admin.comment" class="%sonata.comment.admin.comment.class%">
-            <tag name="sonata.admin" manager_type="orm" group="%sonata.comment.admin.groupname%" show_in_menu="false" show_in_dashboard="false" label_translator_strategy="sonata.admin.label.strategy.underscore" />
+            <tag name="sonata.admin" manager_type="orm" group="%sonata.comment.admin.groupname%" label="comment"  label_catalogue="SonataCommentBundle" label_translator_strategy="sonata.admin.label.strategy.underscore" />
             <argument />
             <argument>%sonata.comment.class.comment.entity%</argument>
             <argument>%sonata.comment.admin.comment.controller%</argument>
