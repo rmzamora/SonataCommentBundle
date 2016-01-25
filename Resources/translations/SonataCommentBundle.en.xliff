@@ -142,6 +142,10 @@
                 <source>valid</source>
                 <target>Valid</target>
             </trans-unit>
+            <trans-unit id="sonata.comment.block.thread.async">
+                <source>sonata.comment.block.thread.async</source>
+                <target>Comment Thread</target>
+            </trans-unit>
         </body>
     </file>
 </xliff>

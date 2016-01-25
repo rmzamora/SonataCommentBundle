@@ -17,6 +17,7 @@ use Sonata\BlockBundle\Block\BlockContextInterface;
 use Sonata\BlockBundle\Model\BlockInterface;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\OptionsResolver\OptionsResolver;
+use Sonata\CoreBundle\Model\Metadata;
 
 /**
  * Comment thread asynchronous creation block service.
@@ -57,5 +58,13 @@ class CommentThreadAsyncBlockService extends BaseBlockService
                 array('id', 'text'),
             ),
         ));
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function getBlockMetadata($code = null)
+    {
+        return new Metadata($this->getName(), (!is_null($code) ? $code : $this->getName()), false, 'SonataCommentBundle', array('class' => 'fa fa-file'));
     }
 }
